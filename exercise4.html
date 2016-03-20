@@ -1,0 +1,15 @@
+<!doctype <!DOCTYPE html>
+	<html>
+	<head>
+		<title>checking variable scope</title>
+	</head>
+	<body onload="checkScope()">
+	<script type="text/javascript">
+	var myVar = 'global';
+	function checkScope(){
+		var myVar = 'local';
+		document.write(myVar);
+	}
+	</script>
+	</body>
+	</html>
